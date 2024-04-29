@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "o7nYgZU2SUAVbWG5rhVF2684mJkuu+grUjPr0+dfUHA=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "D:\\Projetos\\RentMoto\\RentMoto\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projetos\\RentMoto\\RentMoto\\API\\wwwroot\\Images\\transferir.bmp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\RentMoto\\RentMoto\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "Images/transferir.bmp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\transferir.bmp"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+version: '1.0'
+
+networks:
+  dockerapi-network:
+    driver: bridge
+
+services:
+  api:
+    image: rentmoto-api:latest
+    container_name: API
+    depends_on:
+      - "postgres_image"
+      - "rabbitmq_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    restart: always
+    volumes:
+      - imageVolume:/app/data
+    environment:
+      DB_CONNECTION_STRING: "Host=postgres_image;Port=5432;Database=postgres;User ID=postgres;Password=R3ntm0t0#"
+    networks:
+      - dockerapi-network
+
+
+  postgres_image:
+    image: postgres:latest
+    container_name: Postgres
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+#      - ./dbscripts/seed.sql :/docker-entrypoint-initdb.d/seed.sql
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "R3ntm0t0#"
+      POSTGRES_DB: "postgres"
+    networks:
+      - dockerapi-network
+
+  rabbitmq_image:
+    image: rabbitmq:3-management
+    container_name: RabbitMQ
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    restart: always
+    networks:
+      - dockerapi-network
+
+volumes:
+  db_volume:
+  imageVolume:

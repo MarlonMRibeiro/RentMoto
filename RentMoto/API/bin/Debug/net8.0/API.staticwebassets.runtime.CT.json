@@ -1,0 +1,39 @@
+{
+  "ContentRoots": [
+    "/app/wwwroot"
+  ],
+  "Root": {
+    "Children": {
+      "Images": {
+        "Children": {
+          "cachorro-em-png-imagens-de-cachorro.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Images/cachorro-em-png-imagens-de-cachorro.png"
+            },
+            "Patterns": null
+          },
+          "transferir.bmp": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Images/transferir.bmp"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}
