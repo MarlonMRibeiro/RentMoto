@@ -4,16 +4,15 @@ Breve descrição do projeto.
 
 ## Índice
 
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
+- [SOBRE](#sobre)
+- [INSTALAÇÃO](#instalação)
+- [FUNCIONALIDADES](#funcionalidades)
 
-## Sobre
+## SOBRE
 
 Uma API que possui as funcionalidades principais de alugar uma moto e realizar entrega de pedidos
 
-## Instalação
+## INSTALAÇÃO
 
 Primeiramente clone o projeto.
 
@@ -432,10 +431,4 @@ Retorno:
   "message": "Sucess to consult: Total Value R$ 0.00 "
 }
 ```
-
-
-
-## Contribuição
-
-Diretrizes para contribuição no projeto, incluindo como reportar bugs, sugerir melhorias e enviar pull requests.
 
