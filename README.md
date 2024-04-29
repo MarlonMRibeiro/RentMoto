@@ -67,6 +67,13 @@ Retorno
 }
 
 ```
+### Autenticação Bearer
+O esquema de autenticação Bearer funciona enviando um token de acesso no cabeçalho "Authorization" da solicitação HTTP. O token deve ser precedido pela palavra-chave "Bearer". Por exemplo:
+
+```
+Authorization: Bearer <token>
+```
+Onde <token> é o token de acesso fornecido para autenticar a solicitação.
 
 ## DeliveryMan
 
