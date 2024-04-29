@@ -86,7 +86,7 @@ Parâmetros:
 name: "string"
 identity: "string"
 cnpj: "string"
-birth: DateTime
+birth: DateTime (Exemplo: 2024-04-29T05:11:06.719Z)
 cnhNumber: "string"
 cnhType: "string"
 ```
@@ -410,7 +410,7 @@ Parâmetros:
 
 ```
 rentalId: Guid
-endDate: DateTime
+endDate: DateTime (Exemplo: 2024-04-29T05:11:06.719Z)
 ```
 
 Retorno:
