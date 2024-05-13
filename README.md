@@ -1,6 +1,6 @@
 # RentMoto
 
-Breve descrição do projeto.
+Este projeto é uma API que oferece funcionalidades essenciais para alugar motos e gerenciar a entrega de pedidos. Abaixo estão listadas as diferentes funcionalidades oferecidas, desde a criação de usuários até a finalização de locações de motocicletas.
 
 ## Índice
 
@@ -10,13 +10,18 @@ Breve descrição do projeto.
 
 ## SOBRE
 
-Uma API que possui as funcionalidades principais de alugar uma moto e realizar entrega de pedidos
+Esta API foi desenvolvida para facilitar o processo de aluguel de motos e gestão de entregas. Oferece endpoints para criar usuários, autenticar, gerenciar entregadores, motocicletas, pedidos, notificações de pedidos e planos de aluguel.
 
 ## INSTALAÇÃO
 
-Primeiramente clone o projeto.
+Para executar este projeto localmente, siga estas etapas:
 
-Entre na pasta do projeto e abra o terminal dentro dessa pasta, a seguir digite o comando ```docker-compose up```
+1. Clone o projeto para o seu ambiente local.
+2. Abra o terminal na pasta do projeto clonado.
+3. Execute o comando `docker-compose up`.
+
+**Ao executar o `docker-compose up`, você iniciará os contêineres necessários para executar a API. Note que pode ocorrer uma mensagem indicando que a API está caindo, mas isso é esperado, pois o serviço do RabbitMQ ainda não foi iniciado.**
+
 
 ## FUNCIONALIDADES
 
